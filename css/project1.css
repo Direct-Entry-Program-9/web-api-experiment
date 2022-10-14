@@ -1,0 +1,24 @@
+#cursor {
+  width: 75px;
+  height: 75px;
+  background-color: rgba(255, 0, 0, 0.768);
+  border-radius: 100%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  outline: 0 solid rgba(245, 92, 92, 0.652);
+  animation-name: wave;
+  animation-iteration-count: infinite;
+  animation-duration: 0.8s;
+  transition: opacity 0.5s;
+}
+
+@keyframes wave {
+  from {
+    outline-width: 2px;
+  }
+  60%, to {
+    outline-width: 22px;
+  }
+}
+
+/*# sourceMappingURL=project1.css.map */
